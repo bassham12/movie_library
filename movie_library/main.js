@@ -4,7 +4,7 @@ const categories = document.getElementById('categories');
 
 categoryList.addEventListener("mouseover", () => {
   categories.style.animationDirection =
-  categories.style.display = "flex";
+    categories.style.display = "flex";
 });
 
 categoryList.addEventListener("mouseout", () => {

@@ -1,5 +1,3 @@
-
-
 <?php
   include_once 'includes/connect.php';
   include_once 'includes/header.php';
@@ -14,6 +12,4 @@
   </div>
 </main>
 
-<?php
-  include_once 'includes/footer.php';
-?>
+<?php include_once 'includes/footer.php'; ?>

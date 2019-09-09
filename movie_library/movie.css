@@ -1,20 +1,20 @@
-*{
+* {
   margin: 0;
   padding: 0;
   font-family: Arial, Helvetica, sans-serif;
 
 }
 
-:hover{
+:hover {
   cursor: pointer;
 }
 
-a{
+a {
   color: #eee;
   text-decoration: none;
 }
 
-#navigation{
+#navigation {
   background-color: #111;
   color: #eee;
   display: flex;
@@ -23,7 +23,7 @@ a{
   height: 4em;
 }
 
-.company{
+.company {
   margin-top: 20px;
   margin-left: 20px;
 
@@ -36,53 +36,53 @@ a{
 }
 
 
-#navigation ul{
+#navigation ul {
   list-style: none;
   margin-top: 10px;
   padding: 10px;
   z-index: 1;
 }
 
-#dropCat{
+#dropCat {
   color: green;
   font-size: 2em;
 }
 
-#categories{
+#categories {
   display: flex;
   flex-direction: column;
   background-color: green;
   font-size: 1.5em;
-  display:none;
+  display: none;
 }
- 
-#categories a:hover{
+
+#categories a:hover {
   background-color: #eee;
   color: green;
 }
 
 /*MAIN CONTENT*/
-.container{
+.container {
   height: 80vh;
   width: 100vw;
   background-color: #333;
 }
 
-.search{
+.search {
   margin-top: 30vh;
   margin-left: 30vw;
   height: 3em;
   width: 40%;
-  border:solid #088812 3px;
+  border: solid #088812 3px;
   border-radius: 10px;
 }
 
 
-@media screen and (max-width: 786px){
-  .search{
-   height: 1em;
+@media screen and (max-width: 786px) {
+  .search {
+    height: 1em;
     width: 50vw;
     font-size: 2em;
-    
+
   }
 }
